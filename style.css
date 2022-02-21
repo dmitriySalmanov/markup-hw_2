@@ -1,0 +1,62 @@
+body {
+	margin: 0;
+}
+
+.task {
+	max-width: 1000px;
+	margin: 0 auto 50px;
+	padding: 50px 0;
+	border-bottom: 2px solid black;
+}
+
+.task:last-child {
+	border: 0;
+	margin-bottom: 0;
+}
+
+blockquote {
+	color: green;
+}
+
+.holder a[href^='https'] {
+	color: red;
+}
+
+.list > li:last-child a {
+	background-color: green;
+}
+
+.holder ul + p {
+	font-size: 26px;
+}
+
+.text-box h3:first-child {
+	color: pink;
+}
+
+.text-box div p {
+	color: red;
+}
+
+.text-box p:nth-last-of-type(2) {
+	color: green;
+}
+
+#greycol {
+	color: grey;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.bg-box {
+	width: 800px;
+  height: 600px;
+  background: url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg") center center / 500px 300px no-repeat, 
+  						url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png") left bottom / 200px 200px repeat-x, 
+  						url("https://www.freeiconspng.com/uploads/lamp-png-0.png") left top / 50px 70px repeat-x, 
+  						url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru") left top / 30px 30px repeat-y, 
+  						url("images/img-1.png") right top / 50px 50px repeat-y;
+  background-color: darkgreen;
+}
